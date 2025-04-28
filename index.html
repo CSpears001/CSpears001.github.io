@@ -1,5 +1,5 @@
 <!DOCTYPE html> 
-<html> 
+<html lang="en"> 
     <head> 
         <meta charset="UTF-8">
         <meta name="author" content="Christopher Spears">
@@ -8,18 +8,18 @@
         <style> 
         body {
             margin: 0;
-            font family; Lora, sans-serif;
+            font-family: lora, sans-serif;
             background-color: #001f3f;
             color: #F8F8F8;
         }
-        Header {
+        header {
             display: flex;
             justify-content: space-between;
             align-items: center;
             background-color: black;
             padding: 1rem;
         }
-        Header h1{
+        header h1{
             font-family: Montserrat, sans-serif;
             cursor: pointer;
         }
@@ -42,11 +42,26 @@
             min-width: 300px;
             padding: 1rem;
         }
-
-
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: black;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #F8F8F8;
+            margin-bottom: 1rem;
+        }
         </style>
      </head>
       <body> 
-       
+        <header>
+        <h1 onclick="goHome()">My hobbies</h1>
+        <nav>
+            <button onclick="goTo('motorcycle')">Motorcycle page</button>
+            <button onclick="goTo('guitar/bass')">Guitar/Bass page</button>
+        </nav>
+    </header>
      </body>
  </html>
