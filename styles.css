@@ -38,7 +38,7 @@ header h1{
     margin-left: 0;
 }
 /* Header navigation button hover effect */
-.nav button:hover {
+.nav-button:hover {
     background-color: #F8F8F8;
     color: black;
 }
