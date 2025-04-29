@@ -1,10 +1,12 @@
  
+/* Base details of the body */
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #001f3f;
     color: #F8F8F8;
 }
+/* Header Styles */
 header {
     display: flex;
     justify-content: space-between;
@@ -12,9 +14,15 @@ header {
     background-color: black;
     padding: 1rem;
 }
+/* Header title styles */
 header h1{
     font-family: helvetica, sans-serif;
     margin: 0%;
+}
+/* Header navigation styles */
+.nav {
+    display: flex;
+    gap: 1rem;
 }
 .nav button {
     margin-left: 1rem;
@@ -27,40 +35,42 @@ header h1{
     border-radius: 4px;
     transition: background 0.3s, color 0.3s;
 }
+/* Header navigation button hover effect */
 .nav button:hover {
     background-color: #F8F8F8;
     color: black;
 }
+/* Main content layout */
 .container {
     display: flex;
     flex-wrap: wrap;
     padding: 2rem;
     min-height: 80vh;
 }
+/* Left and right content sections */
 .left, .right {
     flex: 1;
     min-width: 300px;
     padding: 1rem;
 }
+/* footer styles */
 footer {
     text-align: center;
     padding: 1rem;
     background-color: black;
 }
+/* Image styles */
 img {
     max-width: 100%;
     height: auto;
     border: 2px solid #F8F8F8;
     margin-bottom: 1rem;
 }
+/* title link styles */
 .site-title {
     font-family: Helvetica, sans-serif;
     margin: 0;
     text-decoration: none;
     color: #F8F8F8;
     cursor: pointer;
-}
-.nav {
-    display: flex;
-    gap: 1rem;
 }
