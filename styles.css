@@ -79,11 +79,12 @@ img {
 /* Iframe styles */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
+    height: 0;
     overflow: hidden;
-    max-width: 100%;
     border: 2px solid #F8F8F8;
     margin-top: 1rem;
+    border-radius: 4px;
 }
 
 .video-container iframe {
