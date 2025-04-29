@@ -60,3 +60,7 @@ img {
     color: #F8F8F8;
     cursor: pointer;
 }
+.nav {
+    display: flex;
+    gap: 1rem;
+}
