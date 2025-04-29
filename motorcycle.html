@@ -7,14 +7,14 @@
         <link rel="stylesheet" href="styles.css">
      </head>
       <body>  
-          <header>
+        <header>
               <h1> <a href="index.html" class="site-title">Christopher's hobbies</a></h1>
               <!-- Navigation to each page-->
               <nav>
                   <button type="button" class="nav-button" onclick="location.href='motorcycle.html'">Motorcycle</button>
                   <button type="button" class="nav-button" onclick="location.href='guitar_bass.html'">Guitar &amp; bass</button>
               </nav>
-      </header>
+        </header>
 
       <main class="container">
             <div class="left">
@@ -22,6 +22,7 @@
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczOVywWrjCuvaH4NBEGBXEFQNQiOpkL6v8WfYf3gv_S9FvOns-Faes3SRAJkpwWsQplPp_JdK9M99XxR2O4gUC19DokSjWwhs7kNC2XHE7oBR5AwIVQ=s0" alt="Aprilia photo">
                 <img src="https://lh3.googleusercontent.com/pw/AP1GczOPZj_E4e3m7TdNOaoX9gyhxWoopLwubXvvMJb3sVf3Ygv95u3jNx_fSons0-Nr9BW3dHsgZdP4OZIs_4PwROGLMHsdKltLVACbg-9rMIoty3WhAHE=s0" alt="Ducati photo">
             </div>
+
             <div class="right">
                 <!-- Some general information about my motorcycles and why I started motorcycling-->
                 <h2>My motorcycles</h2>
@@ -33,6 +34,7 @@
                 <!-- Table about what the details of my motorcycles-->
             <h3> Comparison of my bikes </h3>
             <table>
+                <thead>
                 <tr>
                     <th>Motorcycle</th>
                     <th>Engine size</th>
@@ -40,6 +42,8 @@
                     <th>Weight</th>
                     <th>Year</th>
                 </tr>
+            </thead>
+            <tbody>
                 <tr>
                     <td>Aprilia RS4 125</td>
                     <td>125cc</td>
@@ -54,12 +58,12 @@
                     <td>170kg</td>
                     <td>2006</td>
                 </tr>
+            </tbody>
             </table>
             <!-- Youtube video of the ducati monster s2r 800 --> 
             <iframe width="560" height="315" 
             src="https://www.youtube-nocookie.com/embed/EKu7CHZSFTc?si=_e0JCqZV8pqWUH_0&amp;controls=0" 
             title="YouTube video player" 
-            frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"  
             allowfullscreen>
         </iframe>
