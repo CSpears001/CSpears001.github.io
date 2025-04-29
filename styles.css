@@ -53,3 +53,10 @@ img {
     border: 2px solid #F8F8F8;
     margin-bottom: 1rem;
 }
+.site-title {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    text-decoration: none;
+    color: #F8F8F8;
+    cursor: pointer;
+}
