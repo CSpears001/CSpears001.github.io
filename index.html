@@ -5,67 +5,32 @@
         <meta name="author" content="Christopher Spears">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Christopher Hobbies</title>
-        <style> 
-        body {
-            margin: 0;
-            font-family: Lora, sans-serif;
-            background-color: #001f3f;
-            color: #F8F8F8;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: black;
-            padding: 1rem;
-        }
-        header h1{
-            font-family: Montserrat, sans-serif;
-            cursor: pointer;
-        }
-        nav button {
-            margin-left: 1rem;
-            padding: 0.5rem 1rem;
-            background: none;
-            border: 1px solid #F8F8F8;
-            color: #F8F8F8;
-            cursor: pointer;
-        }
-        .container {
-            display: flex;
-            flex-wrap: wrap;
-            padding: 2rem;
-            min-height: 80vh;
-        }
-        .left, .right {
-            flex: 1;
-            min-width: 300px;
-            padding: 1rem;
-        }
-        footer {
-            text-align: center;
-            padding: 1rem;
-            background-color: black;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border: 2px solid #F8F8F8;
-            margin-bottom: 1rem;
-        }
-        </style>
+        <link rel="stylesheet" href="styles.css">
      </head>
       <body> 
         <header>
-        <h1 onclick="goHome()">My hobbies</h1>
-        <nav>
-            <button onclick="goTo('motorcycle')">Motorcycle page</button>
-            <button onclick="goTo('guitar/bass')">Guitar/Bass page</button>
-        </nav>
+            <h1> Christopher's hobbies</h1>
+            <!-- Navigation to each page-->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="motorcycle.html">Motorcycle</a>
+                <a href="guitar.html">Guitar & bass</a>
+            </nav>
     </header>
+
+        <main class="container">
+            <div class="left">
+                <img src="c:\Users\chris\OneDrive\Pictures\pictureofme.jpg" alt="My photo">  
+            </div>
+
+            <div class="right">
+                <h2>About Me </h2>
+                <p> Hi, My name is Christopher. I am 20 years old and have lived in Finland for most of my life. I am half Finnish and half American. My mother is Finnish and 
+                    my father is American. I am currently studying at Haaga-Helia University of Applied Sciences in Helsinki. I am studying Information Technology.
+                    This website is about my hobbies. These are motorcycles and guitar/bass.
+                </p>
+            </div>
+
+        </main>
      </body>
  </html>
-
- <script>
-    
- </script>
