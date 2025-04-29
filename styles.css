@@ -9,10 +9,11 @@ body {
 /* Header Styles */
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     background-color: black;
     padding: 1rem;
+    gap: 2rem;
 }
 /* Header title styles */
 header h1{
@@ -24,11 +25,11 @@ header h1{
     display: flex;
     gap: 1rem;
 }
-.nav button {
-    margin-left: 1.1rem;
-    padding: 0.75rem 1.5rem;
+.nav-button {
+    margin-left: 1.4rem;
+    padding: 1rem 2rem;
     text-decoration: none;
-    border: 1px solid #F8F8F8;
+    border: 2px solid #F8F8F8;
     color: #F8F8F8;
     background-color: transparent;
     font-family: inherit;
