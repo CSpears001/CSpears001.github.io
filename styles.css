@@ -77,16 +77,9 @@ img {
     cursor: pointer;
 }
 /* Iframe styles */
-iframe {
-    width: 100% ;
-    height: auto;
-    border: 2px solid #F8F8F8;
-    margin-top: 1rem;
-}
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
-    height: 0;
+    padding-bottom: 56.25%; 
     overflow: hidden;
     max-width: 100%;
     border: 2px solid #F8F8F8;
