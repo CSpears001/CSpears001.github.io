@@ -55,10 +55,16 @@ p {
 }
 /* Main content layout */
 .container {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr;
     padding: 2rem;
+    gap: 2rem;
     min-height: 80vh;
+}
+@media (min-width: 768px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
 }
 /* Left and right content sections */
 .left, .right {
