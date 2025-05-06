@@ -21,10 +21,6 @@ header h1{
     margin: 0%;
 }
 /* Header navigation styles */
-.nav {
-    display: flex;
-    gap: 1rem;
-}
 .nav-button {
     margin-left: 1.4rem;
     padding: 1rem 2rem;
