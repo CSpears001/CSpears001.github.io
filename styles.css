@@ -21,8 +21,7 @@ header h1{
     margin: 0;
 }
 /* Header navigation styles */
-.nav-button {
-    margin-left: 1.4rem;
+.nav-button {    
     padding: 1rem 2rem;
     text-decoration: none;
     border: 2px solid #F8F8F8;
