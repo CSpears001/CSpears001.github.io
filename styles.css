@@ -17,7 +17,7 @@ header {
 }
 /* Header title styles */
 header h1{
-    font-family: helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
     margin: 0;
 }
 /* font sizes */
@@ -62,7 +62,6 @@ p {
 }
 /* Left and right content sections */
 .left, .right {
-    flex: 1;
     min-width: 300px;
     padding: 1rem;
 }
